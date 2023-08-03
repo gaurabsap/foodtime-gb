@@ -24,7 +24,7 @@ const Home = () => {
         <p className="text-center md:text-start">
           Freshly made food delivered to your door.
         </p>
-        <div className="mx-auto w-[80%] lg:w-auto lg:m-0">
+        <div className="mx-auto w-[70%] lg:w-auto lg:m-0">
           <div className="w-fit lg:w-full flex border-2 p-1 rounded-full items-center justify-between relative">
             <div className="flex items-center justify-center  gap-5">
               <div className="lg:relative md:flex hidden">
