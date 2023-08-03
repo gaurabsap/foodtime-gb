@@ -6,7 +6,7 @@ const Start = () => {
   return (
     <div className="p-5">
       <div className="flex items-center justify-center relative">
-        <img className="w-[80%]" src={cook} alt="cooking" />
+        <img className="lg:w-[80%] w-full" src={cook} alt="cooking" />
         <div className="flex flex-col gap-5 items-center absolute md:bottom-10 bottom-2 p-2">
           <h1 className="text-white text-[14px] md:text-3xl">
             Want to be a part of Foodtime?
