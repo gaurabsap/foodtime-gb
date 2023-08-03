@@ -8,8 +8,8 @@ import tick from "../assets/tick.png";
 import { BiSearch } from "react-icons/bi";
 const Home = () => {
   return (
-    <div className="border relative lg:max-w-6xl lg:mx-auto md:flex-row gap-16 flex md:h-[85vh] items-center justify-center p-3 flex-col">
-      <div className="flex flex-col justify-center items-center gap-10 md:flex-1">
+    <div className="relative lg:max-w-6xl lg:mx-auto md:flex-row gap-16 flex md:h-[85vh] items-center justify-center p-3 flex-col">
+      <div className="flex flex-col justify-center items-center lg:items-start gap-10 md:flex-1">
         <div className="flex flex-col justify-center gap-5">
           <span className="lg:text-5xl md:text-4xl text-3xl cursive  md:text-start">
             Order food online
@@ -21,10 +21,8 @@ const Home = () => {
             Local restaurants<span className="text-orange-500">.</span>
           </span>
         </div>
-        <p className="text-center md:text-start">
-          Freshly made food delivered to your door.
-        </p>
-        <div className="mx-auto w-[70%] lg:w-auto lg:m-0">
+        <p className="">Freshly made food delivered to your door.</p>
+        <div className="mx-auto p-2 lg:p-0 lg:w-full lg:mx-1">
           <div className="w-fit lg:w-full flex border-2 p-1 rounded-full items-center justify-between relative">
             <div className="flex items-center justify-center  gap-5">
               <div className="lg:relative md:flex hidden">
