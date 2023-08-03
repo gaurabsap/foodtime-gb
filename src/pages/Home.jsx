@@ -14,7 +14,7 @@ const Home = () => {
           <span className="lg:text-5xl md:text-4xl text-3xl cursive  md:text-start">
             Order food online
           </span>
-          <span className="lg:text-5xl md:text-4xl text-3xl cursive  md:text-start">
+          <span className="lg:text-5xl md:text-4xl text-3xl cursive md:text-start">
             From your favourite
           </span>
           <span className="lg:text-5xl md:text-4xl text-3xl cursive md:text-start">
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <p className="">Freshly made food delivered to your door.</p>
         <div className="mx-auto p-2 lg:p-0 lg:w-full lg:mx-1">
-          <div className="w-fit lg:w-full flex border-2 p-1 rounded-full items-center justify-between relative">
+          <div className="w-fit lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-around relative">
             <div className="flex items-center justify-center  gap-5">
               <div className="lg:relative md:flex hidden">
                 <img src={ecp} alt="ecp" />

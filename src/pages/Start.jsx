@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Start = () => {
   return (
-    <div className="p-5 border border-black">
+    <div className="p-5">
       <div className="flex items-center justify-center relative">
         <img className="w-[80%]" src={cook} alt="cooking" />
         <div className="flex flex-col gap-5 items-center absolute md:bottom-10 bottom-2 p-2">
