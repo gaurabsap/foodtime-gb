@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <p className="">Freshly made food delivered to your door.</p>
         <div className="mx-auto p-2 lg:p-0 lg:w-full lg:mx-1">
-          <div className="w-fit lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-around relative">
+          <div className="w-full lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-around relative border-black">
             <div className="flex items-center justify-center  gap-5">
               <div className="lg:relative md:flex hidden">
                 <img src={ecp} alt="ecp" />
@@ -39,7 +39,7 @@ const Home = () => {
                 placeholder="Enter your location"
               />
             </div>
-            <button className="flex items-center lg:px-3 lg:py-3 p-1 h-full rounded-full gap-2 bg-blue-600 text-white">
+            <button className="flex items-center lg:px-3 lg:py-3 p-1 h-full rounded-full gap-2 bg-blue-600 text-white text-[14px]">
               <BiSearch />
               Search
             </button>
