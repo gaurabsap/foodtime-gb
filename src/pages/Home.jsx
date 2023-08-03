@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <p className="">Freshly made food delivered to your door.</p>
         <div className="mx-auto p-2  lg:p-0 lg:w-full lg:mx-1">
-          <div className="w-fit mx-3 lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-evenly relative">
+          <div className="w-full mx-3 lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-evenly relative">
             <div className="flex items-center justify-center  gap-5">
               <div className="lg:relative md:flex hidden">
                 <img src={ecp} alt="ecp" />
