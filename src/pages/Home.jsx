@@ -22,8 +22,8 @@ const Home = () => {
           </span>
         </div>
         <p className="">Freshly made food delivered to your door.</p>
-        <div className="mx-auto p-2 lg:p-0 lg:w-full lg:mx-1">
-          <div className="w-full lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-around relative border-black">
+        <div className="mx-auto p-2  lg:p-0 lg:w-full lg:mx-1">
+          <div className="w-fit mx-3 lg:w-full flex border-2 p-1 rounded-full items-center lg:justify-between justify-evenly relative">
             <div className="flex items-center justify-center  gap-5">
               <div className="lg:relative md:flex hidden">
                 <img src={ecp} alt="ecp" />
@@ -34,7 +34,7 @@ const Home = () => {
                 />
               </div>
               <input
-                className=" p-1 outline-0 lg:text-[17px] text-[14px] bg-transparent"
+                className="p-1 outline-0 lg:text-[17px] text-[14px] bg-transparent"
                 type="text"
                 placeholder="Enter your location"
               />
